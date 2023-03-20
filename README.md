@@ -5,3 +5,4 @@ Just a project for me to ramp up with angular + azure auth
 - [x] Github Action to deploy to Azure Web Service
 - [ ] AuthN
 - [ ] AuthZ
+- [ ] IaC via ARM templates
