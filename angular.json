@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "lanazath": {
+    "soup": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/lanazath",
+            "outputPath": "dist/soup",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "lanazath:build:production"
+              "browserTarget": "soup:build:production"
             },
             "development": {
-              "browserTarget": "lanazath:build:development"
+              "browserTarget": "soup:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "lanazath:build"
+            "browserTarget": "soup:build"
           }
         },
         "test": {
